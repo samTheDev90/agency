@@ -1,0 +1,166 @@
+section{
+    width: 100%;
+}
+
+.sec1{
+    
+
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: row;
+}
+.sec1 .text h6{
+    font-size: 25px;
+    margin-bottom: 80px;
+    font-weight: 400;
+}
+.sec1 .text h1{
+    font-size: 40px;
+margin: 50px 0;
+
+}
+.sec1 .text p{
+    font-size: 20px;
+margin: 80px 0;
+
+}
+.sec1 .text button{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 188px;
+    padding: 15px 15px 25px 15px;
+   font-weight: 700;
+   font-size: large;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sec1 .text button:hover{
+    background-color: rgba(255, 0, 0, 0.849);
+}
+
+.sec1 .text button:active{
+    background-color: rgba(255, 0, 0, 0.575);
+}
+
+
+
+
+.sec1 .image{
+    text-align: right;
+    margin-left: 15px;
+}
+.sec1 .image img{
+    width: 580px;
+    height: 555px;
+}
+
+
+
+/* section 2 */
+.sec2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+  
+}
+.sec2 .card-container{
+    width: 330px;
+    height: 340px;
+    border-radius: 25px;
+   background: #eee9e9;
+   padding: 10px 5px;
+   
+   margin-right: 50px;
+  
+   border-radius: 15px;
+    
+    
+
+}
+.sec2 .card-container:hover{
+    border: solid 0.4px rgba(0, 0, 0, 0.705); 
+    padding: 9px 4px;
+    
+}
+.sec2 .card-middle{
+    background: #dfdfdf;
+
+
+}
+.sec2 .icon ,.sec2 h3,.sec2 p{
+    text-align: center;
+    margin-top: 35px;
+
+}
+.sec2 h3{
+    font-size: 23px;
+ 
+}
+.sec2 p{
+    margin-top: 45px;
+}
+
+
+/* section 3 */
+.sec3{
+    margin-top: 150px;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;  
+}
+.sec3 .image img{
+    height: 515px;
+    width: 500px;
+    
+}
+.sec3 .image{
+    margin-right: 85px;
+}
+.sec3 .text {
+    width: 550px;
+}
+.sec3 .text .p1{
+font-size: 25px;
+margin-bottom: 60px;
+}
+.sec3 .text h1{
+    font-size:40px;
+    margin-bottom: 60px;
+}
+.sec3 .text .p2{
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.sec3 .text button{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 188px;
+    padding: 15px 15px 25px 15px;
+   font-weight: 700;
+   font-size: large;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.sec3 .text button:hover{
+    background-color: rgba(255, 0, 0, 0.849);
+}
+
+.sec3 .text button:active{
+    background-color: rgba(255, 0, 0, 0.575);
+}
+#section3 {
+    transition: 1s;
+    overflow-y: scroll;
+    scroll-behavior: smooth;  
+}

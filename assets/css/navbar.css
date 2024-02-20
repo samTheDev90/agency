@@ -1,0 +1,41 @@
+
+nav{
+    
+    height: 108px;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+nav .logo{
+    text-align: left;
+    margin-right: auto;
+}
+nav ul{
+    text-align: right;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    margin-right:30px;
+}
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+nav ul li a:hover{
+    /* background-color: black; */
+    color: rgb(245, 26, 26);
+}
+nav ul li .active{
+    /* background-color: black; */
+    color: rgb(245, 26, 26);
+}
+nav ul li .active:hover{
+   color: rgba(245, 26, 26, 0.685);
+}
